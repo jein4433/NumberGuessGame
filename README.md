@@ -11,7 +11,6 @@
 -반응형 UI
 <br></br>
 <b>사용한 기술</b>
-<br>-html</br>
+<p><br>-html</br>
 -javascript
-<br>-CSS</br>
-
+<br>-CSS</br></p>
