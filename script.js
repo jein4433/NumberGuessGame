@@ -4,7 +4,7 @@ console.log(gameButton)
 let userInput = document.getElementById("user-input")
 let gameResult = document.getElementById("game-result")
 let resetButton = document.getElementById("reset-button")
-let chances = 5;
+let chances = 3;
 let gameOver = false;
 let gameChance = document.getElementById("game-chance")
 let history = []
@@ -66,10 +66,14 @@ function reset(){
     userInput.value = "";
     randomNum();
     history = [];
-    chances = 5;
+    chances = 3;
     gameChance.textContent = `남은 기회: ${chances}번`;
     gameButton.disabled = false;
     
+    gameResult.textContent = "숫자 맞추기 게임!"
+}
+
+randomNum();
     gameResult.textContent = "숫자 맞추기 게임!"
 }
 
