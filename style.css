@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://images.freeimages.com/images/large-previews/084/sitting-room-1257556.jpg?fmt=webp&w=500");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1 {
+    color:rgb(179, 43, 9);
+    font-size: 75px;
+    text-align:center;
+    margin-top: 90px;
+    margin-bottom:80px;
+}
+
+div {
+    color:rgb(179, 43, 9);
+    text-align: center;
+    font-size:35px;
+    font-weight: 900;
+}
+
+input {
+    display: block;
+    margin:auto;
+    margin-top:50px;
+    width:250px;
+    height:15px;
+}
+
+button {
+    display: block;
+    margin:auto;
+    margin-top: 7px;
+    width:80px;
+    height:40px;
+    background-color:black;
+    color:floralwhite;    
+    border-radius:30px;
+}
+
+button:active{
+    width:85px;
+    height:45px;
+    background-color: crimson;
+}
+
+button:disabled{
+    background-color:rgb(108, 108, 108);
+    color:rgb(213, 213, 213);
+    width:80px;
+    height:40px;
+}
+
+img {
+    width: 300px;
+    margin-left: 870px;
+    margin-top: -200px;
+}
+
+h2 {
+    font-size : 30px;
+    color:antiquewhite;
+    text-align: center;
+}
+
