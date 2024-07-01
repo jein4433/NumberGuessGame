@@ -54,7 +54,7 @@ function play() {
     if(chances == 0){
         gameOver = true;
         if (userValue != computerNum){
-        gameResult.textContent = `정답은 ${computerNum}이었습니다!`}
+        gameResult.textContent = `GAME OVER!!!  정답은 ${computerNum}이었습니다!`}
     }
     if (gameOver == true){
         return gameButton.disabled = true;
