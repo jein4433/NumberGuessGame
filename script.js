@@ -74,7 +74,3 @@ function reset(){
 }
 
 randomNum();
-    gameResult.textContent = "숫자 맞추기 게임!"
-}
-
-randomNum();
